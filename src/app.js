@@ -1,11 +1,12 @@
-import express from "express";
-import cors from "cors";
-import helmet from "helmet";
-import cookieParser from "cookie-parser";
-import mongoSanitize from "express-mongo-sanitize";
-import rateLimit from "express-rate-limit";
-import morgan from "morgan";
-import dotenv from "dotenv";
+const express = require("express");
+const cors = require("cors");
+const helmet = require("helmet");
+const cookieParser = require("cookie-parser");
+const mongoSanitize = require("express-mongo-sanitize");
+const rateLimit = require("express-rate-limit");
+const morgan = require("morgan");
+const dotenv = require("dotenv");
+
 dotenv.config();
 
 const app = express();
